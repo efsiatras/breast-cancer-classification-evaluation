@@ -2,7 +2,7 @@
 Breast cancer classification and evaluation of classification algorithms using k-fold Cross-Validation.
 
 ## Data set
-The data set used is [Wisconsin Breast Cancer (Original) Data Set](https://archive.ics.uci.edu/ml/datasets/breast+cancer+wisconsin+(original) by **UC Irvine Machine Learning Repository**.
+The data set used is [Wisconsin Breast Cancer (Original) Data Set](https://archive.ics.uci.edu/ml/datasets/breast+cancer+wisconsin+(original)) by **UC Irvine Machine Learning Repository**.
 
 ## Classification algorithms
 - Discriminant Analysis
