@@ -221,7 +221,7 @@ fprintf('Specificity: %f\n\n',cp.Specificity);
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %            Exact algorithm for best categorical predictor split:           % 
 %                                                                            %
-%                  "Consider all 2^(C–1) – 1 combinations"                   %
+%                  "Consider all 2^(C-1) - 1 combinations"                   %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %Create indices for the 10-fold cross-validation.
@@ -253,7 +253,7 @@ fprintf('Specificity: %f\n\n',cp.Specificity);
 % "Compute a score for each category using the inner product between the first  %
 %  principal component of a weighted covariance matrix (of the centered class   %
 %  probability matrix) and the vector of class probabilities for that category. % 
-%  Sort the scores in ascending order, and consider all C – 1 splits."          %
+%  Sort the scores in ascending order, and consider all C - 1 splits."          %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %Create indices for the 10-fold cross-validation.
